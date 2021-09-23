@@ -8,7 +8,6 @@ loginBtn.addEventListener('click', () => {
     transactionArea.style.display = 'block';
 });
 
-
 // Deposit btn event handler
 const depositBtn = document.getElementById('deposit');
 depositBtn.addEventListener('click', () => {
@@ -20,7 +19,6 @@ depositBtn.addEventListener('click', () => {
     document.getElementById('deposit-amount').value = '';
 });
 
-
 // withdraw btn event handler
 const withdrawBtn = document.getElementById('withdraw');
 withdrawBtn.addEventListener('click', () => {
@@ -31,7 +29,6 @@ withdrawBtn.addEventListener('click', () => {
 
     document.getElementById('withdraw-amount').value = '';
 })
-
 
 // input amount
 function getInputAmount(id) {
