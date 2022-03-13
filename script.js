@@ -44,5 +44,3 @@ function updateSpanText(id, depositNumber) {
     const total = depositNumber + currentNumber;
     document.getElementById(id).innerText = total;
 }
-
-
